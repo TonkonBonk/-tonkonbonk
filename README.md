@@ -34,7 +34,7 @@ We Tonkatrons don’t just buy the dip. We dive headfirst into the nonsense 🍌
 
 - Comic Sans-rich landing page vibes
 - Custom mascot image front and center
-- 🔗 Links to your social mob: Twitter, Telegram, Discord
+- 🔗 Links to your social mob: Twitter
 - Responsive layout for hodling on any device
 - CTA button for building the Tonk Army
 - Footer disclaimer: “  © 2025 $TONK — Feral Forever”
