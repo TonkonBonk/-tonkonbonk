@@ -2,7 +2,12 @@
 
 **Built on Bonk. Powered by pure nonsense. 🙃**
 
-$Tonk isn't just another meme coin—it's a movement, a lifestyle, a rebellion wrapped in Comic Sans glory. Welcome to the wild world of Tonkonomics, where chaos rules and rug-pulls fear to tread.
+Bonk was just a good boy...
+Until he found the leftovers.
+Cold cuts. Moonlight. Midnight.
+Now he’s not fetching 
+he’s feral.
+He’s $TONK.
 
 ---
 
