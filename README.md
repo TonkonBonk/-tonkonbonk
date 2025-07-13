@@ -1,59 +1,33 @@
-#  $Tonk on Bonk
+# ☣️ $Tonk on Bonk
 
-🥩 Never feed Bonk after midnight.
+**Never feed Bonk after midnight. He’s feral now. Welcome to the chaos.**
 
-Bonk was just a good boy...
-Until he found the leftovers.
-Cold cuts. Moonlight. Midnight.
-Now he’s not fetching 
-he’s feral.
-He’s $TONK.
+This is the official landing page for $Tonk—crypto's most unstable mascot. Born from leftovers, lunacy, and a blood-soaked transformation under the full moon, $Tonk on Bonk brings radioactive vibes to the meme coinverse.
 
 ---
 
-## 💥 What Even *Is* $Tonk?
+## 🌕 Live Preview
 
-Born on Bonk and raised by the internet mob, $Tonk is the coin for degens who crave something spicier than utility. It’s a token. It’s a meme. It’s a glorious punchline in digital form.
+![Tonk Logo](tonk-logo.jpg)
 
-Meet **Lil Tonk**, our 70% banana, 30% algorithm, 100% chaos mascot.
-
-![Lil Tonk Mascot](tonk-image.jpg)
+Website powered by radioactive green, glitchy wolves, and a feral Tonk-o-Meter™.
 
 ---
 
-## 🧠 Our Philosophy
+## 🧬 Features
 
-> We believe in the power of ridiculous ideas.  
-> $Tonk isn't just a coin—it's a meme stream, a declaration of absurdity, and a collective bonk against the boring.
-
-We Tonkatrons don’t just buy the dip. We dive headfirst into the nonsense 🍌
-
----
-
-## 💣 Features
-
-- Comic Sans-rich landing page vibes
-- Custom mascot image front and center
-- 🔗 Links to your social mob: Twitter
-- Responsive layout for hodling on any device
-- CTA button for building the Tonk Army
-- Footer disclaimer: “  © 2025 $TONK — Feral Forever”
-
----
-
-## 🏆 Community Flex
-
-We’ve already bonked it:
-- 🎉 5K Discord Tonkatrons yelling in caps
-- 🐸 Tonk memes featured on BonkTV and CryptoSlapz
-- 💸 Tonk Army sweepstakes winner: @Cryptonator420
-- 🔊 Viral threads from @YourHandle stirring the degen pot
+- ☣️ Biohazard background with pulsing chaos
+- 🐺 Animated glitch logo: Lil Tonk emerges
+- 📈 Tonk-o-Meter™ bar tracking viral mutation status
+- 🧾 Darkmode layout with glowing green accents
+- 📱 Fully responsive across all device sizes
 
 ---
 
 ## 🚀 Getting Started
 
-Clone this beautiful mess:
+To preview locally:
+
 ```bash
 git clone https://github.com/yourusername/tonk-on-bonk
 cd tonk-on-bonk
