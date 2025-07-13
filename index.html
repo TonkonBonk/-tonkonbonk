@@ -1,101 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>$Tonk on Bonk</title>
 
-    <!-- Font Awesome for icons -->
+    <!-- Font Awesome for social icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <style>
+        /* Global styles */
         body {
             margin: 0;
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            background-color: #000; /* Black background */
-            color: #f5f5f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+            color: #ccffcc;
+            overflow-x: hidden;
         }
+
+        /* Moon backdrop */
+        body::before {
+            content: "";
+            position: absolute;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, #99ff99 0%, transparent 70%);
+            border-radius: 50%;
+            opacity: 0.1;
+            animation: pulseMoon 6s infinite ease-in-out;
+            z-index: -1;
+        }
+
+        @keyframes pulseMoon {
+            0% { opacity: 0.05; transform: scale(1); }
+            50% { opacity: 0.15; transform: scale(1.05); }
+            100% { opacity: 0.05; transform: scale(1); }
+        }
+
         .banner {
-            background-color: #ff9900;
-            padding: 40px 20px;
+            padding: 80px 20px;
             text-align: center;
-            color: white;
+            color: #00ff99;
+            position: relative;
         }
-        .banner h1 {
+
+        .typewriter h1 {
+            overflow: hidden;
+            border-right: 0.15em solid #00ff99;
+            white-space: nowrap;
+            margin: 0 auto;
             font-size: 3em;
-            margin-bottom: 10px;
+            animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
         }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: #00ff99 }
+        }
+
+        .banner p {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
         .content {
-            max-width: 800px;
-            margin: auto;
+            max-width: 900px;
+            margin: 40px auto;
             padding: 20px;
             text-align: center;
         }
-        .content img {
+
+        .glitch {
+            position: relative;
+            display: inline-block;
+        }
+
+        .glitch img {
             width: 100%;
-            max-width: 400px;
-            border-radius: 12px;
-            box-shadow: 0 0 20px rgba(255, 153, 0, 0.6);
+            max-width: 420px;
+            border-radius: 14px;
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.6);
+            animation: glitch 1.5s infinite;
         }
+
+        @keyframes glitch {
+            0% { filter: none; }
+            10% { filter: hue-rotate(20deg); }
+            20% { filter: saturate(1.2); }
+            30% { filter: contrast(1.2); }
+            40% { filter: hue-rotate(-20deg); }
+            50% { filter: none; }
+            100% { filter: none; }
+        }
+
         .tagline {
-            font-size: 1.5em;
-            margin: 20px 0;
+            font-size: 1.8em;
+            margin: 30px 0 15px;
+            color: #00ff66;
+            text-shadow: 0 0 5px #00ff66;
         }
+
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
         .cta {
-            background-color: #ff6600;
-            color: white;
-            padding: 10px 20px;
+            background-color: #00cc66;
+            color: #000;
+            padding: 14px 28px;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 8px;
+            border-radius: 10px;
             display: inline-block;
-            margin-top: 20px;
+            transition: all 0.3s ease;
         }
+
         .cta:hover {
-            background-color: #ff3300;
+            background-color: #00ff99;
+            transform: scale(1.05);
         }
+
         .social-links {
             margin-top: 30px;
         }
+
         .social-links a {
-            color: #ff6600;
+            color: #00ff66;
             font-size: 2em;
             margin: 0 15px;
-            transition: transform 0.2s;
+            transition: transform 0.2s ease, color 0.3s ease;
         }
+
         .social-links a:hover {
-            color: #ff3300;
+            color: #00cc66;
             transform: scale(1.2);
         }
+
         .footer {
-            background-color: #ff9900;
+            background-color: #003300;
             color: white;
-            padding: 10px;
+            padding: 16px;
             text-align: center;
-            margin-top: 40px;
+            font-size: 0.95em;
+            margin-top: 60px;
         }
     </style>
 </head>
 <body>
     <div class="banner">
-        <h1>$Tonk on Bonk</h1>
-        <p> BONK IS FERAL </p>
+        <div class="typewriter">
+            <h1>$Tonk on Bonk</h1>
+        </div>
+        <p>BONK IS FERAL</p>
     </div>
     <div class="content">
-        <img src="tonk-image.jpg" alt="$Tonk Mascot">
-        <p class="tagline">Never feed Bonk after midnight 🥩 </p>
-        <p>Bonk was just a good boy... 
-        Until he found the leftovers. 
-        Cold cuts. Moonlight. Midnight. 
-        Now he's not fetching, he's feral. 
-        He's $TONK.</p>
+        <div class="glitch">
+            <img src="tonk-image.jpg" alt="$Tonk Mascot" />
+        </div>
+        <p class="tagline">Never feed Bonk after midnight 🥩</p>
+        <p>
+            Bonk was just a good boy...  
+            Until he found the leftovers.  
+            Cold cuts. Moonlight. Midnight.  
+            Now he's not fetching—he's feral.  
+            He's $TONK.
+        </p>
         <a href="#" class="cta">Join the $Tonk Army</a>
-        
         <div class="social-links">
             <a href="https://x.com/RealTonkCoin" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
     </div>
     <div class="footer">
-        &copy; 2025 $TONK — Feral Forever 
+        &copy; 2025 $TONK — Feral Forever
+    </div>
 </body>
 </html>
