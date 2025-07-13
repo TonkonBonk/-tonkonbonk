@@ -1,6 +1,6 @@
 # 🥊 $Tonk on Bonk
 
-**Built on Bonk. Powered by pure nonsense. 🙃**
+🥩 Never feed Bonk after midnight.
 
 Bonk was just a good boy...
 Until he found the leftovers.
@@ -37,7 +37,7 @@ We Tonkatrons don’t just buy the dip. We dive headfirst into the nonsense 🍌
 - 🔗 Links to your social mob: Twitter, Telegram, Discord
 - Responsive layout for hodling on any device
 - CTA button for building the Tonk Army
-- Footer disclaimer: “No refunds. No regrets.”
+- Footer disclaimer: “  © 2025 $TONK — Feral Forever”
 
 ---
 
