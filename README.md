@@ -1,4 +1,4 @@
-# 🥊 $Tonk on Bonk
+#  $Tonk on Bonk
 
 🥩 Never feed Bonk after midnight.
 
